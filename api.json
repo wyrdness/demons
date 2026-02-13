@@ -1,10 +1,8 @@
 {
-  "category": "DEMON_ANGEL",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/demons",
     "maintainers": [
       {
@@ -18,1085 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "demons",
     "name": "Demons",
-    "aliases": [
-      {
-        "name": "Demon",
-        "language": "English",
-        "meaning": "Evil spirit or devil"
-      },
-      {
-        "name": "Daimon",
-        "language": "Ancient Greek",
-        "region": "Greece",
-        "meaning": "Spirit or divine power (originally neutral)"
-      },
-      {
-        "name": "Daemon",
-        "language": "Latin",
-        "meaning": "Spirit being"
-      },
-      {
-        "name": "Shayatin",
-        "language": "Arabic",
-        "region": "Islamic world",
-        "meaning": "Devils or evil spirits (plural of Shaitan)"
-      },
-      {
-        "name": "Jinn",
-        "language": "Arabic",
-        "region": "Islamic world",
-        "meaning": "Spirits made of smokeless fire, can be good or evil"
-      },
-      {
-        "name": "Shedim",
-        "language": "Hebrew",
-        "region": "Jewish tradition",
-        "meaning": "Demons or evil spirits"
-      },
-      {
-        "name": "Asura",
-        "language": "Sanskrit",
-        "region": "Hindu/Buddhist traditions",
-        "meaning": "Powerful supernatural beings, often antagonistic"
-      },
-      {
-        "name": "Rakshasa",
-        "language": "Sanskrit",
-        "region": "Hindu tradition",
-        "meaning": "Malevolent demons"
-      },
-      {
-        "name": "Oni",
-        "language": "Japanese",
-        "region": "Japan",
-        "meaning": "Demonic ogres or trolls"
-      },
-      {
-        "name": "Fallen Angels",
-        "language": "English",
-        "region": "Christian/Jewish tradition",
-        "meaning": "Angels who rebelled against God"
-      }
-    ],
+    "aliases": [],
     "category": "DEMON_ANGEL",
-    "subcategory": "Demonic Entities",
+    "subcategory": "| Description | Frequency |",
     "tags": [
-      "demon",
-      "evil-spirit",
-      "possession",
-      "fallen-angel",
-      "supernatural",
-      "religious",
-      "global",
-      "malevolent",
-      "temptation",
-      "exorcism"
+      "folklore",
+      "mythology"
     ],
-    "status": "religious-belief",
+    "status": "documented",
     "description": {
-      "summary": "Malevolent supernatural entities found across world religions and cultures. Demons are typically depicted as evil spirits, fallen angels, or spiritual beings that oppose good, tempt humans, cause harm, and may possess individuals. The concept varies significantly between religious traditions.",
-      "full": "Demons are malevolent supernatural entities present in virtually every major religious and cultural tradition worldwide. In Abrahamic religions (Christianity, Islam, Judaism), demons are often understood as fallen angels who rebelled against God or evil spirits that tempt and harm humanity. In Eastern religions, similar entities exist with varying characteristics—Hindu Rakshasas, Buddhist Maras, Japanese Oni. Demonology encompasses the systematic study of demons, their hierarchies, and classifications. Historical demon beliefs have been invoked to explain mental illness, misfortune, disease, and moral failings. Possession by demons has been reported across cultures, leading to exorcism practices. While demons are primarily theological concepts, belief in demonic entities remains strong in many religious communities, and reported experiences of demonic encounters continue to this day. The study of demons intersects theology, psychology, anthropology, and folklore studies."
+      "summary": "Demons are malevolent supernatural entities found across virtually every world religion and culture.",
+      "full": "Demons are malevolent supernatural entities found across virtually every world religion and culture. In Abrahamic traditions (Christianity, Islam, Judaism), demons are typically understood as fallen angels who rebelled against God or evil spirits that tempt and harm humanity. Eastern religions feature similar entities—Hindu Rakshasas, Buddhist Maras, Japanese Oni—though with varying characteristics and theological roles. Demonology, the systematic study of demons, encompasses their hierarchies, classifications, and behaviors. Historical demon beliefs have been invoked to explain mental illness, disease, misfortune, and moral failings. Demonic possession—the taking control of a human host by a demon—has been reported across cultures throughout history, leading to exorcism practices in multiple religious traditions. While demons are primarily theological and cultural concepts, belief in demonic entities remains strong in many religious communities worldwide. Reported encounters with demons continue to the present day. The study of demons intersects theology, psychology, anthropology, folklore, and the history of religion, raising profound questions about the nature of evil, consciousness, and belief."
     },
     "etymology": {
-      "origin": "From Ancient Greek 'daimōn' (δαίμων), originally meaning a spirit or divine power without inherently evil connotation. Through Latin 'daemon' and Christian interpretation, the term acquired its negative meaning of evil spirit.",
-      "meaning": "Evil spirit, devil, or malevolent supernatural entity",
-      "first_use": "Ancient Greek usage circa 800 BCE; negative Christian usage from early Common Era"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "DEMON_ANGEL",
-      "type": "Spiritual Entity",
-      "subtype": "Malevolent/Oppositional",
-      "variant": "Multiple cultural and religious traditions"
+      "type": "| Description | Frequency |",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "ghosts",
-        "name": "Ghosts",
-        "relationship": "related",
-        "description": "Both are non-corporeal entities; distinction varies by tradition"
-      },
-      {
-        "id": "jinn",
-        "name": "Jinn",
-        "relationship": "similar",
-        "description": "Islamic spiritual beings, can be demonic but also neutral or good"
-      },
-      {
-        "id": "possession",
-        "name": "Possession",
-        "relationship": "manifestation",
-        "description": "Demons reportedly take control of human hosts"
-      },
-      {
-        "id": "poltergeist",
-        "name": "Poltergeist",
-        "relationship": "related",
-        "description": "Some traditions attribute poltergeist activity to demons"
-      },
-      {
-        "id": "shadow-people",
-        "name": "Shadow People",
-        "relationship": "possible-connection",
-        "description": "Sometimes interpreted as demonic entities"
-      }
-    ],
-    "demonic_hierarchies": {
-      "description": "Various religious and occult traditions have classified demons into hierarchies and categories",
-      "systems": [
-        {
-          "name": "Christian Demonology",
-          "tradition": "Christianity",
-          "description": "Based on fallen angel theology and medieval grimoires",
-          "hierarchy": [
-            "Lucifer/Satan - Prince of demons, fallen angel",
-            "Beelzebub - Lord of the Flies, high-ranking demon",
-            "Leviathan - Sea serpent demon, chaos",
-            "Asmodeus - Demon of lust",
-            "Mammon - Demon of greed",
-            "Belphegor - Demon of sloth",
-            "Lesser demons and imps"
-          ]
-        },
-        {
-          "name": "Ars Goetia",
-          "tradition": "Western Occultism",
-          "description": "72 demons catalogued in Lesser Key of Solomon (17th century)",
-          "notable_demons": [
-            "King Bael - Commands 66 legions",
-            "Duke Astaroth - Grand Duke of Hell",
-            "President Valac - Reveals hidden treasures",
-            "Marquis Amon - Reconciles disputes"
-          ]
-        },
-        {
-          "name": "Islamic Demonology",
-          "tradition": "Islam",
-          "description": "Jinn and Shayatin (devils) in Islamic cosmology",
-          "hierarchy": [
-            "Iblis (Satan) - Jinn who refused to bow to Adam",
-            "Shayatin - Devils who follow Iblis",
-            "Ifrit - Powerful jinn, often malevolent",
-            "Marid - Strong jinn",
-            "Various lesser jinn"
-          ]
-        },
-        {
-          "name": "Jewish Demonology",
-          "tradition": "Judaism",
-          "description": "Demons in Jewish mysticism and folklore",
-          "hierarchy": [
-            "Samael - Angel of Death, associated with evil",
-            "Lilith - Female demon, Adam's first wife in folklore",
-            "Asmodeus - King of demons in Talmudic tradition",
-            "Shedim - General term for demons"
-          ]
-        },
-        {
-          "name": "Buddhist Demons",
-          "tradition": "Buddhism",
-          "description": "Obstacles to enlightenment personified",
-          "types": [
-            "Mara - Chief demon, tempter of Buddha",
-            "Asuras - Powerful beings driven by jealousy",
-            "Hungry Ghosts (Pretas) - Tormented spirits",
-            "Various demons as manifestations of negative karma"
-          ]
-        },
-        {
-          "name": "Hindu Demons",
-          "tradition": "Hinduism",
-          "description": "Demons and anti-gods in Hindu mythology",
-          "types": [
-            "Asuras - Power-seeking beings opposing Devas",
-            "Rakshasas - Malevolent demons",
-            "Daityas - Race of asuras",
-            "Pishachas - Flesh-eating demons"
-          ]
-        }
-      ]
-    }
+    "related_phenomena": []
   },
-
   "characteristics": {
-    "spiritual": {
-      "nature": "Non-corporeal spiritual entities, though can manifest or possess physical forms",
-      "origin_theories": [
-        "Fallen angels who rebelled with Lucifer (Christian/Jewish)",
-        "Jinn created from smokeless fire (Islamic)",
-        "Primordial beings or manifestations of evil",
-        "Spirits of dead who became malevolent",
-        "Personifications of human vices and temptations"
-      ],
-      "attributes": [
-        "Immortal or extremely long-lived",
-        "Exist in spiritual/unseen realm",
-        "Can interact with physical world",
-        "Possess intelligence and will",
-        "Hostile or antagonistic to humanity (generally)",
-        "Opposed to divine order or good"
-      ]
+    "physical": {
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "manifestations": {
-      "description": "Ways demons reportedly appear or make their presence known",
-      "forms": [
-        {
-          "type": "Physical appearance",
-          "description": "Visible manifestation in various forms—human-like, animal, monstrous, or beautiful",
-          "frequency": "rare"
-        },
-        {
-          "type": "Possession",
-          "description": "Taking control of a human or animal host",
-          "frequency": "reported",
-          "signs": [
-            "Personality changes",
-            "Speaking in unknown languages",
-            "Superhuman strength",
-            "Knowledge of hidden information",
-            "Aversion to religious objects",
-            "Physical contortions",
-            "Changed voice"
-          ]
-        },
-        {
-          "type": "Oppression",
-          "description": "External attacks without possession—physical, mental, spiritual harassment",
-          "frequency": "reported"
-        },
-        {
-          "type": "Infestation",
-          "description": "Demonic presence in a location causing disturbances",
-          "frequency": "reported"
-        },
-        {
-          "type": "Apparitions",
-          "description": "Brief visual appearances, shadow forms, or dream visitations",
-          "frequency": "common"
-        },
-        {
-          "type": "Auditory phenomena",
-          "description": "Voices, growls, screams, or whispers",
-          "frequency": "common"
-        },
-        {
-          "type": "Olfactory signs",
-          "description": "Foul odors, sulfur smell, or rotting scent",
-          "frequency": "occasional"
-        }
-      ]
-    },
-    "abilities": [
-      {
-        "ability": "Possession",
-        "description": "Taking control of human or animal hosts",
-        "frequency": "reported",
-        "evidence_level": "religious-doctrine"
-      },
-      {
-        "ability": "Temptation",
-        "description": "Inducing humans to sin or immoral acts",
-        "frequency": "theological-belief",
-        "evidence_level": "religious-doctrine"
-      },
-      {
-        "ability": "Deception",
-        "description": "Lying, disguising true nature, creating illusions",
-        "frequency": "common",
-        "evidence_level": "religious-doctrine"
-      },
-      {
-        "ability": "Shape-shifting",
-        "description": "Appearing in various forms including attractive humans or animals",
-        "frequency": "reported",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Telekinesis",
-        "description": "Moving objects, causing poltergeist-like activity",
-        "frequency": "reported",
-        "evidence_level": "anecdotal"
-      },
-      {
-        "ability": "Invisibility",
-        "description": "Existing in unseen spiritual realm",
-        "frequency": "always",
-        "evidence_level": "theological"
-      },
-      {
-        "ability": "Knowledge of secrets",
-        "description": "Revealing hidden information or speaking in unknown languages through possessed",
-        "frequency": "reported",
-        "evidence_level": "anecdotal"
-      },
-      {
-        "ability": "Causing illness",
-        "description": "Inflicting physical or mental disease",
-        "frequency": "traditional-belief",
-        "evidence_level": "historical"
-      }
-    ],
-    "weaknesses": [
-      {
-        "weakness": "Holy symbols",
-        "description": "Crosses, religious texts, holy water (Christian); Quranic verses (Islamic); specific mantras (Hindu/Buddhist)",
-        "tradition": "Multiple religious traditions"
-      },
-      {
-        "weakness": "Prayer and faith",
-        "description": "Sincere prayer and strong faith can repel demons",
-        "tradition": "Most religious traditions"
-      },
-      {
-        "weakness": "Exorcism rituals",
-        "description": "Formal religious rites to expel demons",
-        "tradition": "Christianity, Islam, Judaism, Hinduism, Buddhism, others"
-      },
-      {
-        "weakness": "Sacred names",
-        "description": "Names of God, angels, or divine figures",
-        "tradition": "Abrahamic religions"
-      },
-      {
-        "weakness": "Consecrated objects",
-        "description": "Blessed items, relics, protective amulets",
-        "tradition": "Various"
-      },
-      {
-        "weakness": "Salt",
-        "description": "Purifying substance that repels evil",
-        "tradition": "Folklore, various cultures"
-      },
-      {
-        "weakness": "Iron",
-        "description": "Metal believed to ward off evil spirits",
-        "tradition": "European folklore"
-      },
-      {
-        "weakness": "Running water",
-        "description": "Believed to block demonic movement",
-        "tradition": "Various folklore"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "motivations": [
-        "Corruption of human souls",
-        "Opposition to divine will",
-        "Causing suffering and chaos",
-        "Rebellion against spiritual order",
-        "Feeding on negative energy (some traditions)",
-        "Revenge against humanity or God"
-      ],
-      "patterns": [
-        "Target spiritually vulnerable individuals",
-        "Exploit moral weaknesses",
-        "Disguise true intentions initially",
-        "Escalate attacks over time",
-        "Avoid strong faith or blessed places",
-        "Often active at night or dark places"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Belief in demons is global, present in virtually every culture and religious tradition worldwide. Manifestation reports occur everywhere humans live.",
-      "continents": ["All continents"],
-      "countries": ["Universal"],
-      "regions": ["Global phenomenon"]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "cultural_prevalence": [
-      {
-        "region": "Middle East",
-        "traditions": ["Islam", "Judaism", "Christianity"],
-        "notes": "Strong demonic theology in Abrahamic religions originating here"
-      },
-      {
-        "region": "Europe",
-        "traditions": ["Christianity", "Folk traditions"],
-        "notes": "Medieval demonology, witch trials, possession cases"
-      },
-      {
-        "region": "Asia",
-        "traditions": ["Hinduism", "Buddhism", "Shintoism", "Folk religions"],
-        "notes": "Rich traditions of demons, asuras, oni, hungry ghosts"
-      },
-      {
-        "region": "Africa",
-        "traditions": ["Christianity", "Islam", "Traditional African religions"],
-        "notes": "Syncretic beliefs combining religious and indigenous traditions"
-      },
-      {
-        "region": "Americas",
-        "traditions": ["Christianity", "Indigenous traditions"],
-        "notes": "Colonial Christian demonology mixed with indigenous beliefs"
-      }
-    ],
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "~3000 BCE",
+        "date": "Unknown",
         "circa": true,
-        "source": "Mesopotamian texts (Sumerian, Akkadian) describe demons and evil spirits"
-      },
-      "peak_activity_periods": [
-        {
-          "period": "Ancient (3000 BCE - 500 CE)",
-          "description": "Mesopotamian, Egyptian, Greek, Roman demon beliefs established"
-        },
-        {
-          "period": "Medieval Europe (500-1500 CE)",
-          "description": "Christian demonology systematized; possession epidemics"
-        },
-        {
-          "period": "Early Modern (1500-1800 CE)",
-          "description": "Witch trials, grimoires, documented possession cases"
-        },
-        {
-          "period": "Modern Era (1800-present)",
-          "description": "Continued possession reports; psychological interpretations emerge"
-        }
-      ],
-      "notable_possession_epidemics": [
-        "Loudun possessions (France, 1634)",
-        "Salem witch trials (Massachusetts, 1692-1693)",
-        "Aix-en-Provence possessions (France, 1611)",
-        "Louviers possessions (France, 1647)"
-      ]
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Belief in malevolent supernatural entities is among humanity's oldest and most universal spiritual concepts. Mesopotamian religions had extensive demon catalogues by 3000 BCE. Zoroastrianism (1500 BCE) established dualistic good-vs-evil framework influencing later religions.",
-      "earliest_accounts": "Sumerian and Akkadian texts describe demons like Pazuzu (demon of wind and plague), Lamashtu (child-killing demon), and others. Egyptian texts mention demons and evil spirits. Ancient Greek daimones were originally neutral but acquired negative associations.",
-      "religious_development": "Abrahamic religions developed sophisticated demonologies: Jewish tradition established demons in Talmudic texts; Christianity systematized fallen angel theology; Islam incorporated jinn and shayatin into cosmology."
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "~3000 BCE",
-        "event": "Mesopotamian demon texts",
-        "significance": "Earliest written demon descriptions in Sumerian/Akkadian religion",
-        "source": "Archaeological findings, cuneiform tablets"
-      },
-      {
-        "date": "~1500 BCE",
-        "event": "Zoroastrian dualism",
-        "significance": "Established cosmic battle between good (Ahura Mazda) and evil (Angra Mainyu)",
-        "source": "Avesta texts"
-      },
-      {
-        "date": "~500 BCE",
-        "event": "Jewish Second Temple period",
-        "significance": "Development of Satan figure and demon beliefs in Judaism",
-        "source": "Biblical and apocryphal texts"
-      },
-      {
-        "date": "1st Century CE",
-        "event": "Christian demonology emerges",
-        "significance": "New Testament describes demons and Jesus performing exorcisms",
-        "source": "Christian Bible"
-      },
-      {
-        "date": "~400 CE",
-        "event": "Augustine's theology",
-        "significance": "Systematized Christian demon doctrine—fallen angels, temptation",
-        "source": "City of God, other writings"
-      },
-      {
-        "date": "7th Century CE",
-        "event": "Islamic demonology",
-        "significance": "Quran and Hadith establish jinn and Iblis in Islamic tradition",
-        "source": "Quran, Hadith"
-      },
-      {
-        "date": "1486",
-        "event": "Malleus Maleficarum published",
-        "significance": "Influential witch-hunting manual; connected demons to witchcraft",
-        "source": "Heinrich Kramer"
-      },
-      {
-        "date": "1614",
-        "event": "Loudun possessions begin",
-        "significance": "Ursuline nuns in France claim demonic possession; led to executions",
-        "source": "Historical records, The Devils of Loudun"
-      },
-      {
-        "date": "1634",
-        "event": "Loudun possessions climax",
-        "significance": "Father Urbain Grandier executed for alleged demon pact",
-        "source": "Historical records"
-      },
-      {
-        "date": "1692-1693",
-        "event": "Salem witch trials",
-        "significance": "Massachusetts colony; demonic possession blamed for afflictions",
-        "source": "Court records"
-      },
-      {
-        "date": "1973",
-        "event": "The Exorcist film released",
-        "significance": "Based on 1949 exorcism case; renewed public interest in demons",
-        "source": "Film based on William Peter Blatty novel"
-      },
-      {
-        "date": "1976",
-        "event": "Anneliese Michel exorcism",
-        "significance": "German woman died during exorcism; controversial case examining possession vs. mental illness",
-        "source": "Court records, The Exorcism of Anneliese Michel"
-      },
-      {
-        "date": "1975-1976",
-        "event": "Amityville haunting",
-        "significance": "Famous case attributed to demonic infestation (authenticity disputed)",
-        "source": "The Amityville Horror book, subsequent investigations"
-      },
-      {
-        "date": "1990s-present",
-        "event": "Modern exorcism revival",
-        "significance": "Catholic Church and other denominations report increased exorcism requests",
-        "source": "Religious organizations, media reports"
-      }
-    ],
-    "modern_era": "Demon belief remains strong in religious communities worldwide. The Catholic Church continues to train exorcists and perform exorcisms. Protestant, Orthodox, Islamic, Hindu, and Buddhist traditions maintain exorcism practices. Psychology and psychiatry have provided alternative explanations for alleged possession (mental illness, dissociative disorders, cultural conditioning). However, religious authorities maintain demons are real spiritual threats. Popular culture continues fascination with demonic themes."
+    "timeline": []
   },
-
   "sightings": {
     "statistics": {
-      "total_documented": 5000,
+      "total_documented": 0,
       "verified": 0,
-      "disputed": 4500,
-      "debunked": 500,
-      "date_range": {
-        "earliest": "Ancient",
-        "latest": "Present"
-      }
+      "disputed": 0,
+      "debunked": 0
     },
-    "notable": [
-      {
-        "id": "demons-case-loudun",
-        "name": "Loudun Possessions",
-        "date": {
-          "value": "1634",
-          "precision": "year"
-        },
-        "location": {
-          "description": "Loudun, France",
-          "country": "France",
-          "region": "Nouvelle-Aquitaine"
-        },
-        "witnesses": {
-          "count": 50,
-          "types": ["Nuns", "Priests", "Government officials", "Townspeople"],
-          "credibility_factors": ["Multiple witnesses", "Official investigation", "Documented exorcisms"]
-        },
-        "description": "Ursuline nuns in Loudun convent claimed to be possessed by demons sent by Father Urbain Grandier. The nuns exhibited convulsions, blasphemy, sexual behavior, and speaking in tongues. Public exorcisms were performed. Grandier was convicted of witchcraft and burned at the stake. Modern historians suggest mass hysteria, sexual repression, and political machinations rather than genuine possession.",
-        "conditions": {
-          "duration": "Several years (1632-1637)",
-          "context": "Religious tensions, convent life, political intrigue"
-        },
-        "evidence": [
-          "Extensive contemporary documentation",
-          "Court records",
-          "Multiple witness accounts",
-          "Exorcism records"
-        ],
-        "credibility": {
-          "rating": "documented-event",
-          "factors": [
-            "Well-documented historical event",
-            "Political and sexual motivations evident",
-            "Mass hysteria likely explanation",
-            "No supernatural evidence"
-          ],
-          "notes": "Real historical event; demonic possession claim disputed by historians"
-        },
-        "sources": [
-          "Huxley, A. (1952). The Devils of Loudun",
-          "Contemporary court records"
-        ],
-        "featured": true
-      },
-      {
-        "id": "demons-case-anneliese",
-        "name": "Exorcism of Anneliese Michel",
-        "date": {
-          "value": "1976-07-01",
-          "precision": "exact"
-        },
-        "location": {
-          "description": "Klingenberg, Bavaria",
-          "country": "Germany",
-          "region": "Bavaria"
-        },
-        "witnesses": {
-          "count": 10,
-          "types": ["Family", "Priests", "Exorcists"],
-          "credibility_factors": ["Multiple witnesses", "Audio recordings", "Medical records"]
-        },
-        "description": "Anneliese Michel, a German woman, was diagnosed with epilepsy and depression. After medical treatments failed, she and her family sought Catholic exorcism. Over 10 months, 67 exorcism sessions were performed. Anneliese exhibited disturbing behaviors: speaking in multiple voices, self-harm, refusing food. She claimed possession by multiple demons including Lucifer, Judas, Nero, Cain, Hitler, and Fleischmann (a disgraced priest). She died of malnutrition and dehydration. Her parents and the exorcists were convicted of negligent homicide. Medical experts concluded she suffered from epilepsy and psychosis. The case raised profound questions about possession vs. mental illness.",
-        "conditions": {
-          "weather": "N/A",
-          "visibility": "N/A",
-          "time_of_day": "Various",
-          "duration": "10 months (1975-1976)"
-        },
-        "evidence": [
-          "Audio recordings of exorcism sessions",
-          "Medical records",
-          "Court testimony",
-          "Witness accounts",
-          "Photographs"
-        ],
-        "credibility": {
-          "rating": "documented-tragedy",
-          "factors": [
-            "Well-documented case",
-            "Medical diagnosis of epilepsy and psychosis",
-            "Court convicted participants of negligence",
-            "No supernatural evidence verified",
-            "Psychological explanation most likely"
-          ],
-          "notes": "Tragic case illustrating dangers of attributing mental illness to demons"
-        },
-        "sources": [
-          "Court records, Würzburg, Germany",
-          "Goodman, F. (2005). The Exorcism of Anneliese Michel",
-          "Nicola, U. (2016). Anneliese Michel - A True Story of a Case of Demonic Possession"
-        ],
-        "featured": true
-      },
-      {
-        "id": "demons-case-roland-doe",
-        "name": "Roland Doe Exorcism (Inspired The Exorcist)",
-        "date": {
-          "value": "1949",
-          "precision": "year"
-        },
-        "location": {
-          "description": "St. Louis, Missouri (and Maryland)",
-          "country": "United States",
-          "region": "Midwest"
-        },
-        "witnesses": {
-          "count": 15,
-          "types": ["Priests", "Family", "Medical observers"],
-          "credibility_factors": ["Multiple priests involved", "Diary kept by attending priest"]
-        },
-        "description": "A 13-year-old boy (pseudonym Roland Doe or Robbie Mannheim) reportedly exhibited disturbing behaviors after his aunt (a spiritualist) died. Objects moved, scratching sounds, bed shaking, speaking in Latin, violent reactions to religious objects. Catholic priests performed multiple exorcism rituals over several weeks. The case was kept secret for decades but inspired William Peter Blatty's novel The Exorcist. Skeptics note the boy was likely troubled, suggestible, and acting out, possibly with some psychosomatic symptoms.",
-        "conditions": {
-          "duration": "Several months (January-April 1949)"
-        },
-        "evidence": [
-          "Priest's diary (kept secret until later)",
-          "Witness testimony",
-          "Church records"
-        ],
-        "credibility": {
-          "rating": "disputed",
-          "factors": [
-            "Case details kept secret for decades",
-            "No independent verification",
-            "Boy possibly acting out or psychosomatic",
-            "Inspired fictional account",
-            "Some details exaggerated"
-          ],
-          "notes": "Real exorcism occurred; supernatural explanation uncertain"
-        },
-        "sources": [
-          "Allen, T. (1993). Possessed: The True Story of an Exorcism",
-          "Blatty, W.P. (1971). The Exorcist (fictional account inspired by case)"
-        ],
-        "featured": true
-      }
-    ],
+    "notable": [],
     "database_path": "./sightings/"
   },
-
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
-    "audio": [
-      {
-        "id": "demons-evidence-anneliese-audio",
-        "type": "audio recording",
-        "name": "Anneliese Michel Exorcism Recordings",
-        "date": "1975-1976",
-        "description": "Audio recordings of exorcism sessions showing multiple voices and disturbing sounds",
-        "status": "documented",
-        "analysis": "Recordings exist; psychiatric explanation (dissociative identity disorder) most likely"
-      }
-    ],
-    "documentary": [
-      {
-        "id": "demons-evidence-church-records",
-        "type": "religious records",
-        "name": "Church Exorcism Records",
-        "description": "Catholic, Orthodox, and other churches maintain records of exorcism requests and rituals",
-        "status": "documented",
-        "notes": "Records exist but don't prove supernatural causation"
-      },
-      {
-        "id": "demons-evidence-grimoires",
-        "type": "historical texts",
-        "name": "Grimoires and Demon Catalogues",
-        "description": "Medieval and early modern texts cataloguing demons: Ars Goetia, Pseudomonarchia Daemonum, others",
-        "status": "historical-texts",
-        "notes": "Cultural artifacts; not evidence of demon existence"
-      },
-      {
-        "id": "demons-evidence-religious-texts",
-        "type": "scripture",
-        "name": "Religious Texts",
-        "description": "Bible, Quran, Torah, Hindu texts, Buddhist sutras contain demon references",
-        "status": "religious-scripture",
-        "notes": "Sacred texts for believers; not empirical evidence"
-      }
-    ]
+    "audio": [],
+    "trace": []
   },
-
   "theories": {
-    "theological": [
-      {
-        "name": "Fallen Angel Doctrine (Christian/Jewish)",
-        "description": "Demons are angels who rebelled against God alongside Lucifer and were cast out of heaven. They now oppose God's will and corrupt humanity.",
-        "proponents": ["Christian theologians", "Jewish scholars", "Augustine", "Thomas Aquinas"],
-        "evidence_cited": [
-          "Biblical texts (Isaiah 14, Revelation 12)",
-          "Book of Enoch (apocryphal)",
-          "Theological tradition"
-        ]
-      },
-      {
-        "name": "Jinn Theology (Islamic)",
-        "description": "Demons are jinn (beings made of smokeless fire) who chose evil. Iblis (Satan) is a jinn who refused to bow to Adam. Not all jinn are demons; they have free will.",
-        "proponents": ["Islamic scholars", "Traditional Islamic theology"],
-        "evidence_cited": [
-          "Quran (Surat Al-Jinn, others)",
-          "Hadith",
-          "Islamic theological tradition"
-        ]
-      },
-      {
-        "name": "Primordial Evil",
-        "description": "Demons are manifestations or agents of cosmic evil, existing in opposition to good. May be personifications of chaos, darkness, or death.",
-        "proponents": ["Various religious traditions"],
-        "evidence_cited": [
-          "Zoroastrian dualism",
-          "Hindu asura-deva conflict",
-          "Cross-cultural evil entities"
-        ]
-      }
-    ],
-    "psychological": [
-      {
-        "name": "Mental Illness Misattribution",
-        "description": "Alleged demon possession is actually mental illness—schizophrenia, dissociative identity disorder, psychosis, epilepsy—misinterpreted through religious lens.",
-        "proponents": ["Psychiatrists", "Psychologists", "Medical historians"],
-        "evidence_cited": [
-          "Symptoms match psychiatric disorders",
-          "Treatment with medication effective",
-          "Anneliese Michel diagnosed with epilepsy",
-          "Cultural conditioning influences expression"
-        ]
-      },
-      {
-        "name": "Dissociative Identity Disorder",
-        "description": "Multiple personality states misinterpreted as demon possession. Trauma victims may develop alternate identities perceived as demons.",
-        "proponents": ["Clinical psychologists"],
-        "evidence_cited": [
-          "DID patients exhibit 'possession' symptoms",
-          "Trauma history common",
-          "Alternate personalities can seem autonomous"
-        ]
-      },
-      {
-        "name": "Suggestion and Expectation",
-        "description": "Religious expectation and cultural scripts lead people to interpret experiences as demonic. Exorcism rituals reinforce belief.",
-        "proponents": ["Social psychologists"],
-        "evidence_cited": [
-          "Possession symptoms match cultural expectations",
-          "Rare in non-religious contexts",
-          "Hypnotic suggestion can produce similar effects"
-        ]
-      }
-    ],
-    "sociological": [
-      {
-        "name": "Social Scapegoating",
-        "description": "Demon beliefs used to explain and control deviant behavior, illness, or misfortune. Serves social function of maintaining norms.",
-        "proponents": ["Sociologists", "Anthropologists"],
-        "evidence_cited": [
-          "Witch trials targeted social outsiders",
-          "Possession claims often involve sexual or rebellious behavior",
-          "Functions as social control mechanism"
-        ]
-      },
-      {
-        "name": "Mass Hysteria",
-        "description": "Group possession cases (Loudun, convents) result from mass psychogenic illness—stress, anxiety, and suggestion spreading through groups.",
-        "proponents": ["Sociologists", "Historians"],
-        "evidence_cited": [
-          "Convent possession epidemics",
-          "Affected specific social groups",
-          "Spread through suggestion"
-        ]
-      }
-    ],
-    "neurological": [
-      {
-        "name": "Temporal Lobe Epilepsy",
-        "description": "Seizure activity in temporal lobe can produce religious experiences, hearing voices, personality changes misinterpreted as possession.",
-        "proponents": ["Neurologists"],
-        "evidence_cited": [
-          "Temporal lobe epilepsy symptoms overlap with possession",
-          "Anneliese Michel had epilepsy",
-          "Brain stimulation can produce religious experiences"
-        ]
-      },
-      {
-        "name": "Sleep Paralysis and Hypnagogic States",
-        "description": "Sleep-related phenomena produce sensation of presence, pressure on chest, inability to move—interpreted as demonic attack.",
-        "proponents": ["Sleep researchers"],
-        "evidence_cited": [
-          "Sleep paralysis common across cultures",
-          "Often interpreted supernaturally",
-          "REM intrusion explains symptoms"
-        ]
-      }
-    ],
-    "skeptical": [
-      {
-        "name": "Cultural Construct",
-        "description": "Demons are entirely cultural constructs—mythological beings invented to explain misfortune, enforce morality, and express psychological fears. No evidence for objective existence.",
-        "proponents": ["Skeptics", "Secular scholars", "Atheists"],
-        "evidence_cited": [
-          "No empirical evidence for demons",
-          "Cultural variation in demon concepts",
-          "Natural explanations available for all claims",
-          "Coincides with religious decline in developed nations"
-        ]
-      }
-    ],
-    "paranormal": [
-      {
-        "name": "Non-Human Entities",
-        "description": "Demons are real non-corporeal entities, possibly interdimensional beings, that interact with humans. Not necessarily tied to religious frameworks.",
-        "proponents": ["Paranormal researchers", "Demonologists"],
-        "evidence_cited": [
-          "Consistent cross-cultural reports",
-          "Unexplained phenomena during exorcisms",
-          "EVP recordings",
-          "Witness testimony"
-        ]
-      }
-    ]
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
   },
-
   "cultural": {
     "folklore": {
-      "traditions": [
-        "European demon folklore",
-        "Middle Eastern demon traditions",
-        "Asian demon mythology",
-        "African spirit beliefs",
-        "Indigenous demon-like entities worldwide"
-      ],
-      "stories": [
-        "Faust legend (pact with demon)",
-        "King Solomon binding demons",
-        "Buddha's temptation by Mara",
-        "Jesus casting out demons (Gospels)",
-        "Lilith legends (Jewish folklore)",
-        "Golem and demon stories"
-      ],
-      "beliefs": "Demons play central roles in moral frameworks—representing temptation, evil, and spiritual danger. Protective practices include prayer, amulets, rituals, and avoiding certain behaviors."
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
-    "religious_practices": {
-      "exorcism": {
-        "description": "Ritual practice of expelling demons from possessed individuals or places",
-        "traditions": [
-          {
-            "religion": "Christianity",
-            "practice": "Roman Ritual exorcism (Catholic), deliverance ministry (Protestant)",
-            "practitioners": "Ordained priests or ministers trained in exorcism"
-          },
-          {
-            "religion": "Islam",
-            "practice": "Ruqyah—recitation of Quranic verses to expel jinn",
-            "practitioners": "Imams, religious scholars"
-          },
-          {
-            "religion": "Judaism",
-            "practice": "Various rituals to expel dybbuk or demons",
-            "practitioners": "Rabbis, especially in Hasidic tradition"
-          },
-          {
-            "religion": "Hinduism",
-            "practice": "Mantras, rituals, deity invocations to remove demonic influence",
-            "practitioners": "Priests, spiritual healers"
-          },
-          {
-            "religion": "Buddhism",
-            "practice": "Rituals to subdue demons, often transforming them into protectors",
-            "practitioners": "Monks, lamas"
-          }
-        ]
-      },
-      "protection": {
-        "methods": [
-          "Prayer and devotion",
-          "Wearing protective amulets (crosses, hamsa, Quranic verses, protection mantras)",
-          "Holy water and blessed objects",
-          "Salt circles",
-          "Burning incense (frankincense, sage)",
-          "Reciting scripture",
-          "Avoiding occult practices",
-          "Living morally"
-        ]
-      }
-    },
-    "sensitivity_note": "Demon beliefs are deeply held religious convictions for billions of people worldwide. Approach with respect for diverse faith traditions. Avoid mockery or dismissiveness. Many individuals have genuine, frightening experiences they attribute to demons. Whether explained religiously, psychologically, or as cultural phenomena, these experiences are real to those who have them.",
     "popular_culture": {
-      "literature": [
-        "Paradise Lost by John Milton (1667)",
-        "The Exorcist by William Peter Blatty (1971)",
-        "Rosemary's Baby by Ira Levin (1967)",
-        "The Screwtape Letters by C.S. Lewis (1942)",
-        "Good Omens by Terry Pratchett & Neil Gaiman (1990)",
-        "His Dark Materials series (demons as daemons)"
-      ],
-      "film_tv": [
-        "The Exorcist (1973)",
-        "The Omen (1976)",
-        "Constantine (2005)",
-        "Supernatural (TV series, 2005-2020)",
-        "The Conjuring universe films",
-        "Lucifer (TV series)",
-        "Evil (TV series, 2019-present)"
-      ],
-      "games": [
-        "Diablo series",
-        "Doom series",
-        "Shin Megami Tensei series",
-        "Dante's Inferno",
-        "Helltaker"
-      ],
-      "other": [
-        "Heavy metal music demon imagery",
-        "Demon aesthetics in goth/alternative subcultures",
-        "Demonology tourism (Salem, etc.)",
-        "Paranormal investigation shows"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
   "research": {
-    "researchers": [
-      {
-        "name": "Ed and Lorraine Warren",
-        "affiliation": "Independent demonologists",
-        "contribution": "Investigated famous cases including Amityville, Annabelle doll; founded New England Society for Psychic Research",
-        "period": "1952-2019",
-        "note": "Work controversial; skeptics question methods and claims"
-      },
-      {
-        "name": "Father Gabriele Amorth",
-        "affiliation": "Catholic Church",
-        "contribution": "Chief exorcist of Diocese of Rome; performed thousands of exorcisms; authored books on demonology",
-        "period": "1986-2016"
-      },
-      {
-        "name": "Dr. Richard Gallagher",
-        "affiliation": "Psychiatrist, Columbia University",
-        "contribution": "Consulted on possession cases; argues some cannot be explained by psychiatry",
-        "period": "Modern"
-      },
-      {
-        "name": "Dr. M. Scott Peck",
-        "affiliation": "Psychiatrist and author",
-        "contribution": "People of the Lie—explored evil and demon possession from psychiatric perspective",
-        "period": "1983"
-      },
-      {
-        "name": "Anthropological researchers",
-        "affiliation": "Various universities",
-        "contribution": "Study demon beliefs across cultures, possession rituals, social functions",
-        "period": "Ongoing"
-      }
-    ],
-    "organizations": [
-      {
-        "name": "International Association of Exorcists",
-        "url": "Recognized by Vatican",
-        "focus": "Catholic exorcism training and support"
-      },
-      {
-        "name": "Parapsychology Foundation",
-        "focus": "Scientific study of paranormal phenomena including possession"
-      }
-    ],
-    "ongoing_studies": "Demon belief and possession continue to be studied by theologians, psychologists, anthropologists, and paranormal researchers. Catholic Church reports increased demand for exorcism in 21st century. Psychology studies dissociative phenomena and cultural expression of distress. Anthropology examines possession rituals across cultures. No scientific consensus supports supernatural demon existence, but religious traditions maintain theological positions."
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "russell-1984",
-      "type": "book",
-      "title": "Lucifer: The Devil in the Middle Ages",
-      "authors": ["Jeffrey Burton Russell"],
-      "publication": "Cornell University Press",
-      "date": "1984",
-      "isbn": "978-0801494291"
-    },
-    {
-      "id": "stratton-2007",
-      "type": "book",
-      "title": "Naming the Witch: Magic, Ideology, and Stereotype in the Ancient World",
-      "authors": ["Kimberly Stratton"],
-      "publication": "Columbia University Press",
-      "date": "2007"
-    },
-    {
-      "id": "goodman-2005",
-      "type": "book",
-      "title": "The Exorcism of Anneliese Michel",
-      "authors": ["Felicitas Goodman"],
-      "publication": "Resource Publications",
-      "date": "2005",
-      "isbn": "978-1597527378"
-    },
-    {
-      "id": "levack-2013",
-      "type": "book",
-      "title": "The Devil Within: Possession and Exorcism in the Christian West",
-      "authors": ["Brian P. Levack"],
-      "publication": "Yale University Press",
-      "date": "2013",
-      "isbn": "978-0300149821"
-    },
-    {
-      "id": "walker-1981",
-      "type": "book",
-      "title": "Unclean Spirits: Possession and Exorcism in France and England in the Late Sixteenth and Early Seventeenth Centuries",
-      "authors": ["D.P. Walker"],
-      "publication": "University of Pennsylvania Press",
-      "date": "1981"
-    },
-    {
-      "id": "el-zein-2009",
-      "type": "book",
-      "title": "Islam, Arabs, and the Intelligent World of the Jinn",
-      "authors": ["Amira El-Zein"],
-      "publication": "Syracuse University Press",
-      "date": "2009",
-      "isbn": "978-0815650706"
-    }
-  ]
+  "sources": []
 }
